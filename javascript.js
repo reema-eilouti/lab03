@@ -2,7 +2,7 @@ var firstname = prompt("Hey! What's your name?");
 
 var birthYear = prompt("What year were you born in?");
 
-var age = 2021 - birthYear
+var age = (2021 - birthYear)
 
 
 
