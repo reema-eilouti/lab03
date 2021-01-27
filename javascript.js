@@ -1,13 +1,23 @@
 var name = prompt("Hey! What's your name?");
 
+var birthYear = prompt("What year were you born in?");
+
+var age = 2021 - birthYear
+
+
+
 if (confirm("Press a button!")) 
 {
-    document.write("You pressed OK!");
+    alert("You pressed OK!");
 } 
 else 
 {
-    document.write("You pressed Cancel!");
+    alert("You pressed Cancel!");
 }
 
-// document.write("Welcome!" );
-// document.getElementById("greeting").innerText("Welcome " + name + "!");
+
+
+document.getElementById("greeting").innerText("Welcome " + name + "!");
+
+document.write("Happy " + age + " Years!");
+
