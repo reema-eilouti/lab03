@@ -17,7 +17,8 @@ else
 
 
 
-var el = document.getElementById("greeting");
-el.textContent = "Welcome " + firstname + "!";
+var element1 = document.getElementById("greeting");
+element1.textContent = "Welcome " + firstname + "!";
 
-document.getElementById("years").innerText("Happy " + age + " Years!");
+var element2 = document.getElementById("years");
+element2.textContent = "Happy " + age + " Years!";
