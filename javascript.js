@@ -1,13 +1,13 @@
 var name = prompt("Hey! What's your name?");
 
-// document.getElementById("greeting").innerText("Welcomes ");
-// document.write("Welcome " );
-
 if (confirm("Press a button!")) 
 {
-    txt = "You pressed OK!";
+    document.write("You pressed OK!");
 } 
 else 
 {
-    txt = "You pressed Cancel!";
+    document.write("You pressed Cancel!");
 }
+
+// document.write("Welcome!" );
+// document.getElementById("greeting").innerText("Welcome " + name + "!");
