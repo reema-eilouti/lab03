@@ -1,4 +1,4 @@
-var name = prompt("Hey! What's your name?");
+var firstname = prompt("Hey! What's your name?");
 
 var birthYear = prompt("What year were you born in?");
 
@@ -17,7 +17,7 @@ else
 
 
 
-document.getElementById("greeting").innerText("Welcome " + name + "!");
+var el = document.getElementById("greeting");
+el.textContent = "Welcome " + firstname + "!";
 
-document.write("Happy " + age + " Years!");
-
+document.getElementById("years").innerText("Happy " + age + " Years!");
