@@ -27,18 +27,18 @@ alert("You typed 'Hi'! Thank you :)")
 
 var number = prompt("How many puppies do you like to see?");
 
-var image = ""
+var image = "";
 
 image = <img style="width:200px;" src="puppy.png" alt="cute golden retriever"/>;
 
-var view = ""
+var view = "";
 
 for(var i = 0 ; i < number ; i++)
 {
     view = view + image;
 }
 
-document.write(view);
+
 
 
 var element1 = document.getElementById("greeting");
@@ -48,3 +48,5 @@ var age = 2021 - birthYear
 
 var element2 = document.getElementById("years");
 element2.textContent = "Happy " + age + " Years!";
+
+document.write(view);
