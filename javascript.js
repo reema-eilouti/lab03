@@ -27,15 +27,18 @@ alert("You typed 'Hi'! Thank you :)")
 
 var number = prompt("How many puppies do you like to see?");
 
-var element3 = document.getElementById("puppy");
+var image = ""
 
-var image = <img style="width:200px;" src="puppy.png" alt="cute golden retriever"/>;
+image = <img style="width:200px;" src="puppy.png" alt="cute golden retriever"/>;
+
+var view = ""
 
 for(var i = 0 ; i < number ; i++)
 {
-    element3.innerHTML += image;
+    view = view + image;
 }
 
+document.write(view);
 
 
 var element1 = document.getElementById("greeting");
