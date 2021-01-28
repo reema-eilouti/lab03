@@ -39,7 +39,7 @@ element2.textContent = "Happy " + age + " Years!";
 
 
 
-var image = '<img style="width:200px;" src="puppy.png" alt="cute golden retriever"/>';
+var image = '<img src="puppy.png"/>';
 
 var view = '';
 
