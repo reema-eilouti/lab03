@@ -48,4 +48,7 @@ for(var i = 0 ; i < number ; i++)
     view = view + image;
 }
 
-document.write(view);
+var element3 = document.getElementById("puppy");
+element3.textContent = view;
+
+// document.write(view);
