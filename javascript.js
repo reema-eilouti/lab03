@@ -51,4 +51,4 @@ for(var i = 0 ; i < number ; i++)
 }
 
 var element3 = document.getElementById("puppy");
-element3.innerText = view;
+element3.innerHTML = view;
