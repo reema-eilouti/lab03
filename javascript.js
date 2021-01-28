@@ -30,7 +30,7 @@ var number = prompt("How many puppies do you like to see?");
 
 
 
-var image = '<img style="width:100px;" alt="cute golden retriever" src="puppy.png"/>';
+var image = '<img style="width:100px; length:100px;" alt="cute golden retriever" src="puppy.png"/>';
 
 var view = '';
 
