@@ -4,14 +4,24 @@ var birthYear = prompt("What year were you born in?");
 
 
 
-if (confirm("Press a button!")) 
+// if (confirm("Press a button!")) 
+// {
+//     alert("You pressed OK!");
+// } 
+// else 
+// {
+//     alert("You pressed Cancel!");
+// }
+
+
+
+var userInput = prompt("Please type 'Hi' here: ");
+
+while(userInput !== 'Hi')
 {
-    alert("You pressed OK!");
-} 
-else 
-{
-    alert("You pressed Cancel!");
+    userInput = prompt("Please type 'Hi' here: ");
 }
+alert("You typed 'Hi'! Thank you :)")
 
 
 
