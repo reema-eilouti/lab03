@@ -21,7 +21,7 @@ while(userInput !== 'Hi')
 {
     userInput = prompt("Please type 'Hi' here: ");
 }
-alert("You typed 'Hi'! Thank you :)")
+alert("You typed 'Hi'! Thank you :)");
 
 
 
