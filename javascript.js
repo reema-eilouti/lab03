@@ -29,7 +29,7 @@ var number = prompt("How many puppies do you like to see?");
 
 var element3 = document.getElementById("puppy");
 
-var image = <img id="puppy" style="width:200px;" src="puppy.png" alt="cute golden retriever"/>
+var image = <img style="width:200px;" src="puppy.png" alt="cute golden retriever"/>
 
 for(var i = 0 ; i < number ; i++)
 {
