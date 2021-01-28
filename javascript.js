@@ -50,5 +50,3 @@ for(var i = 0 ; i < number ; i++)
 
 var element3 = document.getElementById("puppy");
 element3.textContent = view;
-
-// document.write(view);
