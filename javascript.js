@@ -21,23 +21,12 @@ while(userInput !== 'Hi')
 {
     userInput = prompt("Please type 'Hi' here: ");
 }
+
 alert("You typed 'Hi'! Thank you :)");
 
 
 
 var number = prompt("How many puppies do you like to see?");
-
-var image = "";
-
-image = <img style="width:200px;" src="puppy.png" alt="cute golden retriever"/>;
-
-var view = "";
-
-for(var i = 0 ; i < number ; i++)
-{
-    view = view + image;
-}
-
 
 
 
@@ -48,5 +37,17 @@ var age = 2021 - birthYear
 
 var element2 = document.getElementById("years");
 element2.textContent = "Happy " + age + " Years!";
+
+
+var image = "";
+
+image = <img src="puppy.png" />;
+
+var view = "";
+
+for(var i = 0 ; i < number ; i++)
+{
+    view = view + image;
+}
 
 document.write(view);
