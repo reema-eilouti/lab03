@@ -39,11 +39,11 @@ var element2 = document.getElementById("years");
 element2.textContent = "Happy " + age + " Years!";
 
 
-var image = <img src="puppy.png"/>;
+// var image = <img src="puppy.png"/>;
 
-var view = "";
+// var view = "";
 
-for(var i = 0 ; i < number ; i++)
-{
-    // view = view + image;
-}
+// for(var i = 0 ; i < number ; i++)
+// {
+//     // view = view + image;
+// }
