@@ -46,3 +46,5 @@ var age = 2021 - birthYear
 
 var element2 = document.getElementById("years");
 element2.textContent = "Happy " + age + " Years!";
+
+document.write(view);
