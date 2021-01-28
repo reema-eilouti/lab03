@@ -25,6 +25,20 @@ alert("You typed 'Hi'! Thank you :)")
 
 
 
+var number = prompt("How many puppies do you like to see?");
+
+var element3 = document.getElementById("puppy");
+
+var images = ""
+
+for(var i = 0 ; i < number ; i++)
+{
+    images += element3;
+}
+
+document.write(images)
+
+
 var element1 = document.getElementById("greeting");
 element1.textContent = "Welcome " + firstname + "!";
 
