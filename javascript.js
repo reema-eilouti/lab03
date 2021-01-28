@@ -45,5 +45,6 @@ var view = '';
 
 for(var i = 0 ; i < number ; i++)
 {
+    document.write(i);
     document.write(image);
 }
