@@ -50,4 +50,4 @@ for(var i = 0 ; i < number ; i++)
     view = view + image;
 }
 
-// document.write(view);
+document.write(view);
