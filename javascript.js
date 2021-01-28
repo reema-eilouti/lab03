@@ -41,14 +41,11 @@ element2.textContent = "Happy " + age + " Years!";
 
 var image = "";
 
-image = <img src="puppy.png" />;
+image = <img src="puppy.png"/>;
 
 var view = "";
 
 for(var i = 0 ; i < number ; i++)
 {
-    view = view + image;
+    document.write("image");
 }
-
-var element3 = document.getElementById("puppy");
-element3.innerHTML = view;
