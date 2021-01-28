@@ -45,5 +45,5 @@ var view = "";
 
 for(var i = 0 ; i < number ; i++)
 {
-    view = view + image;
+    // view = view + image;
 }
