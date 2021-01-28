@@ -32,7 +32,7 @@ var number = prompt("How many puppies do you like to see?");
 
 var image = '<img src="puppy.png"/>';
 
-var view = "";
+var view = '';
 
 for(var i = 0 ; i < number ; i++)
 {
