@@ -33,7 +33,7 @@ var images = ""
 
 for(var i = 0 ; i < number ; i++)
 {
-    images += element3;
+    images.innerHtml += element3;
 }
 
 document.write(images)
