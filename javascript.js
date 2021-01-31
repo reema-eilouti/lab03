@@ -52,7 +52,7 @@ function imageRequest(){
 
     var number = prompt("How many images do you like to view at the bottom of this page?");
 
-    var image = '<img src="image.png"/>';
+    var image = '<img src="image.PNG"/>';
 
     for(var i = 0 ; i < number ; i++){
         document.write(image);
