@@ -1,47 +1,64 @@
-var firstname = prompt("Hey! What's your name?");
 
-var birthYear = prompt("What year were you born in?");
+function greeting(){
 
-var element1 = document.getElementById("greeting");
-element1.textContent = "Welcome " + firstname + "!";
+    var firstname = prompt("Hey! What's your name?");
 
-var age = 2021 - birthYear
+    var element1 = document.getElementById("greeting");
+    
+    element1.textContent = "Welcome " + firstname + "!";
 
-var element2 = document.getElementById("years");
-element2.textContent = "Happy " + age + " Years!";
-
+}
 
 
+function calculateAge(){
 
-// if (confirm("Press a button!")) 
-// {
-//     alert("You pressed OK!");
-// } 
-// else 
-// {
-//     alert("You pressed Cancel!");
-// }
+    var birthYear = prompt("What year were you born in?");
 
+    var age = 2021 - birthYear
 
+    var element2 = document.getElementById("years");
 
+    element2.textContent = "Happy " + age + " Years!";
 
-// var userInput = prompt("Please type 'Hi' here: ");
-
-// while(userInput !== 'Hi')
-// {
-//     userInput = prompt("Please type 'Hi' here: ");
-// }
-
-// alert("You typed 'Hi'! Thank you :)");
+}
 
 
+function confirmation(){
+
+    if (confirm("Press a button!")) {
+        alert("You pressed OK!");
+    } 
+    else {
+        alert("You pressed Cancel!");
+    }
+
+}
 
 
-// var number = prompt("How many puppies do you like to see?");
+function validateUserInput(){
 
-// var image = '<img src="puppy.png"/>';
+    var userInput = prompt("Please type 'Hi' here: ");
 
-// for(var i = 0 ; i < number ; i++)
-// {
-//     document.write(image);
-// }
+    while(userInput !== 'Hi'){
+        userInput = prompt("Please type 'Hi' here: ");
+    }
+
+    alert("You typed 'Hi'! Thank you :)");
+
+}
+
+
+function puppiesRequest(){
+
+    var number = prompt("How many puppies do you like to see?");
+
+    var image = '<img src="puppy.png"/>';
+
+    for(var i = 0 ; i < number ; i++){
+        document.write(image);
+    }
+
+}
+
+greeting();
+calculateAge();
