@@ -48,11 +48,11 @@ function validateUserInput(){
 }
 
 
-function puppiesRequest(){
+function imageRequest(){
 
-    var number = prompt("How many puppies do you like to see?");
+    var number = prompt("How many images do you like to view at the bottom of this page?");
 
-    var image = '<img src="puppy.png"/>';
+    var image = '<img src="image.png"/>';
 
     for(var i = 0 ; i < number ; i++){
         document.write(image);
@@ -62,3 +62,6 @@ function puppiesRequest(){
 
 greeting();
 calculateAge();
+confirmation();
+validateUserInput();
+imageRequest();
