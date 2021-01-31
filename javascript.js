@@ -2,6 +2,15 @@ var firstname = prompt("Hey! What's your name?");
 
 var birthYear = prompt("What year were you born in?");
 
+var element1 = document.getElementById("greeting");
+element1.textContent = "Welcome " + firstname + "!";
+
+var age = 2021 - birthYear
+
+var element2 = document.getElementById("years");
+element2.textContent = "Happy " + age + " Years!";
+
+
 
 
 // if (confirm("Press a button!")) 
@@ -15,33 +24,24 @@ var birthYear = prompt("What year were you born in?");
 
 
 
-var userInput = prompt("Please type 'Hi' here: ");
 
-while(userInput !== 'Hi')
-{
-    userInput = prompt("Please type 'Hi' here: ");
-}
+// var userInput = prompt("Please type 'Hi' here: ");
 
-alert("You typed 'Hi'! Thank you :)");
+// while(userInput !== 'Hi')
+// {
+//     userInput = prompt("Please type 'Hi' here: ");
+// }
 
-
-
-var number = prompt("How many puppies do you like to see?");
-
-
-var element1 = document.getElementById("greeting");
-element1.textContent = "Welcome " + firstname + "!";
-
-var age = 2021 - birthYear
-
-var element2 = document.getElementById("years");
-element2.textContent = "Happy " + age + " Years!";
+// alert("You typed 'Hi'! Thank you :)");
 
 
 
-var image = '<img src="puppy.png"/>';
 
-for(var i = 0 ; i < number ; i++)
-{
-    document.write(image);
-}
+// var number = prompt("How many puppies do you like to see?");
+
+// var image = '<img src="puppy.png"/>';
+
+// for(var i = 0 ; i < number ; i++)
+// {
+//     document.write(image);
+// }

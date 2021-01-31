@@ -1,61 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Reema's HTML/CSS Index Page</title>
+    <link rel="stylesheet" href="styling.css" />
 </head>
-
 <body>
-    <header style="background-color:gray; text-align:center;">
-        <br>
-        <h1 style="font-family: 'Courier New', Courier, monospace;">LTUC - ASAC</h1>
-        <h2 style="font-family: 'Courier New', Courier, monospace;">Web Development Program</h2>
-        <nav style="text-align:left;">
+    <header>
+        <h1>LTUC - ASAC</h1>
+        <h2>Web Development Program</h2>
+        <nav>
             <ul>
-                <li><a href="http://www.ltuc.com/" style="font-family: 'Courier New', Courier, monospace;">LTUC
-                        Website</a></li>
-                <li><a href="https://asac.ltuc.com/" style="font-family: 'Courier New', Courier, monospace;">ASAC
-                        Website</a></li>
-                <li><a href="https://www.w3schools.com/html/"
-                        style="font-family: 'Courier New', Courier, monospace;">About HTML
-                    </a></li>
-                <li><a href="https://www.w3schools.com/css/"
-                        style="font-family: 'Courier New', Courier, monospace;">About CSS
-                    </a></li>
-                <li><a href="https://www.w3schools.com/js/"
-                        style="font-family: 'Courier New', Courier, monospace;">About JavaScript
-                    </a></li>
+                <li><a href="http://www.ltuc.com/">LTUC Website</a></li>
+                <li><a href="https://asac.ltuc.com/">ASAC Website</a></li>
+                <li><a href="https://www.w3schools.com/html/">About HTML</a></li>
+                <li><a href="https://www.w3schools.com/css/">About CSS</a></li>
+                <li><a href="https://www.w3schools.com/js/">About JavaScript</a></li>
             </ul>
-            <br>
         </nav>
     </header>
-
-    <main style="text-align:center;">
-
+    <main>
         <h3 id="greeting">Hello!</h3>
         <h3 id="years">...</h3>
-
-        <script src="javascript.js"></script>
-
-        <p style="font-family: 'Courier New', Courier, monospace;">In this Code102 Course we are learning how to use
-            HTML.</p>
-        <p style="font-family: 'Courier New', Courier, monospace;">Also, we are adding some CSS for the page to look
-            more presentable.</p>
-        <img style="width:200px;" src="logo.png" alt="logo of html and css"/>
-
+        <p>This Program consists of 5 courses.</p>
+        <p id="courses">
+            Code 101: Explore Software Development
+            <br>
+            Code 102: Intro to Software Development
+            <br>
+            Code 201: Foundations of Software Development
+            <br>
+            Code 301: Intermediate Software Development
+            <br>
+            Code 401: Advanced Software Development
+        </p>
+        <img src="logos.png" alt="logos of html css javascript"/>
     </main>
-
-    <footer style="background-color:gray; text-align:center; font-family: 'Courier New', Courier, monospace;">
-        <br>
+    <footer>
         This Sample Page was created by Reema on January-2021.
-        <br>
-        <br>
     </footer>
-
-    
-
+    <script src="javascript.js"></script>
 </body>
-
 </html>

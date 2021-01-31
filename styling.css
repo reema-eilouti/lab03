@@ -1,0 +1,47 @@
+
+* {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+
+  header nav ul {
+    list-style: none;
+  }
+
+
+  header nav ul li {
+    display: inline-block;
+    padding: 20px;
+  }
+
+
+  header nav ul li a {
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  footer {
+      font-weight: bold;
+      background-color:gray;
+      padding: 20px;
+      position: static;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+  }
+  nav {
+    font-weight: bold;
+    background-color:gray;
+}
+  
+  #courses {
+    border: solid 1px black;
+    padding: 20px 20px 20px 20px;
+    margin: 25px;
+  }
+
+  img {
+    width: 300px;
+  }
